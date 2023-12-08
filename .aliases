@@ -1,3 +1,4 @@
 alias dl="cd ~/Downloads"
+alias docs="cd ~/Documents"
 alias g="git"
 alias grep="ggrep"
