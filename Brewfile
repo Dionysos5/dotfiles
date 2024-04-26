@@ -23,8 +23,12 @@ brew "wget"
 brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Note taking with sync
+brew "joplin-cli"
 
 # Casks
+# Terminal emulator alternative
+cask "iterm2"
 # Web browser
 cask "firefox"
 # Web browser
@@ -39,3 +43,11 @@ cask "mullvadvpn"
 cask "rectangle"
 # System monitor for the menu bar
 cask "stats"
+# Note taking with sync
+cask "joplin"
+# Instant messaging
+cask "signal"
+# Transfer files android
+cask "android-file-transfer"
+# Multimedia player
+cask "vlc"
