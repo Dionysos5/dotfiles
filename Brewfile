@@ -27,6 +27,8 @@ brew "zsh-autosuggestions"
 # Casks
 # Web browser
 cask "firefox"
+# Web browser
+cask "arc"
 # Clipboard manager
 cask "maccy"
 # Tool to control external monitor brightness & volume
