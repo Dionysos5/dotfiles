@@ -23,6 +23,8 @@ brew "wget"
 brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Zsh syntax highlighting
+brew "zsh-syntax-highlighting"
 # Note taking with sync
 brew "joplin-cli"
 
