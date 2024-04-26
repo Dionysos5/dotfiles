@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # Custom Configurations
 # =====================
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/dotfiles/zsh/.aliases
+source ~/.dotfiles/zsh/.aliases
 eval "$(zoxide init zsh)"
 
 # Node Version Manager
