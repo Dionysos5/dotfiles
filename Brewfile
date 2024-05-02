@@ -27,6 +27,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Note taking with sync
 brew "joplin-cli"
+# Personal information dashboard for your terminal
+brew "wtfutil"
 
 # Casks
 # Terminal emulator alternative
