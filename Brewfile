@@ -53,3 +53,6 @@ cask "signal"
 cask "android-file-transfer"
 # Multimedia player
 cask "vlc"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+
