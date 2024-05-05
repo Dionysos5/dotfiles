@@ -27,3 +27,7 @@ NVM_DIR="$HOME/.nvm"
 function tt() {
     tgpt "\"$*\""
 }
+
+# Environment variables
+# =========
+export $(cat ~/.env | xargs)
