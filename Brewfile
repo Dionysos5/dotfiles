@@ -27,6 +27,10 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Note taking with sync
 brew "joplin-cli"
+# Synchronize calendars and contacts
+brew "vdirsyncer"
+# CLI calendar application
+brew "khal"
 
 # Casks
 # Terminal emulator alternative
@@ -55,4 +59,5 @@ cask "android-file-transfer"
 cask "vlc"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
-
+# Open source continuous file synchronization application
+cask "syncthing"
