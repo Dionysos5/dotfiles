@@ -25,9 +25,25 @@ NVM_DIR="$HOME/.nvm"
 # Function
 # =========
 function tt() {
-    tgpt "\"$*\""
+    local query=""
+    for arg in "$@"; do
+        # If query is not empty, add a space
+        if [ -n "$query" ]; then
+            query+=" "
+        fi
+        query+="$arg"
+    done
+    tgpt --provider duckduckgo "$query"
 }
 
 # Environment variables
 # =========
 export $(cat ~/.env | xargs)
+
+# pnpm
+export PNPM_HOME="/Users/denis/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

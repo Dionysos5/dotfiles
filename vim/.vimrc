@@ -46,6 +46,9 @@ set backspace=indent,eol,start
 
 " use :set spell! or :set invspell inside Vim to toggle spell checking
 set spell spelllang=en_us
+" Remap esc
+inoremap ;; <ESC>
+
 " }}}
 
 " Search and Navigation {{{
