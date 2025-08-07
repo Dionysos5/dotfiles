@@ -1,5 +1,1 @@
-alias dl="cd ~/Downloads"
-alias docs="cd ~/Documents"
-alias dcu="docker-compose -f docker-compose.yml --env-file dev.env up"
-alias dcs='docker-compose -f docker-compose.yml --env-file dev.env exec api sh -c "npm run seeds:up"'
-alias ddb="docker-compose -f docker-compose.yml --env-file dev.env exec postgres psql -U postgres -d harvy"
+alias d="pnpm dev"
